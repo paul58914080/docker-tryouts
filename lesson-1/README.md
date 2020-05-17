@@ -4,7 +4,7 @@
 # Specify the base image
 FROM alpine
 
-# Download and install a dependency
+# Download and install dependencies
 RUN apk add --update redis
 RUN apk add --update gcc
 
